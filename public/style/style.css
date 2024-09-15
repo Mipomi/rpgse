@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#player-status {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+
+#login-screen, #game-screen {
+    text-align: center;
+    margin: 20px;
+}
+
+#status-info {
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    display: inline-block; /* Agar teks tetap dalam lebar kontainer */
+    white-space: pre-line; /* Mempertahankan baris baru, tetapi mengabaikan spasi ekstra */
+}

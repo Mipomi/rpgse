@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Goblin",
+        "attack": 15,
+        "defense": 5,
+        "health": 50,
+        "experience": 10
+    },
+    {
+        "name": "Dragon",
+        "attack": 19278,
+        "defense": 5067,
+        "health": 5000000,
+        "experience": 997780
+    },
+    {
+        "name": "Wolf",
+        "attack": 80,
+        "defense": 20,
+        "health": 120,
+        "experience": 80
+    },
+    {
+        "name": "Qilin",
+        "attack": 19885,
+        "defense": 5122,
+        "health": 8900000,
+        "experience": 569000
+    },
+    {
+        "name": "Golm",
+        "attack": 280,
+        "defense": 56789,
+        "health": 800,
+        "experience": 23459
+    },
+    {
+        "name": "Orc",
+        "attack": 25,
+        "defense": 10,
+        "health": 80,
+        "experience": 20
+    }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game RPG</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="login-screen">
+        <form id="login-form">
+            <h1>Login RPGSE</h1>
+            <label for="username">Nama Pengguna:</label>
+            <input type="text" id="username" required>
+            <button type="submit">Masuk</button>
+        </form>
+    </div>
+    <div id="game-screen" style="display:none;">
+        <h1>Selamat datang, <span id="player-name"></span>!</h1>
+        <div id="game-message"></div>
+        <div id="player-status" style="display:none;">
+            <div id="status-info"></div>
+        </div>
+        <button id="fight-monster">Lawan Monster</button>
+        <button id="view-status">Lihat Status</button>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

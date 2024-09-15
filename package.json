@@ -1,0 +1,25 @@
+{
+  "name": "rpgse",
+  "version": "1.0.0",
+  "description": "game rpg sederhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "12s",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mipomi/rpgse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mipomi/rpgse/issues"
+  },
+  "homepage": "https://github.com/Mipomi/rpgse#readme"
+}
